@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "stardust.sln",
+    "projects": [
+      "stardust.Desktop\\stardust.Desktop.csproj",
+      "stardust.Game\\stardust.Game.csproj",
+      "stardust.Game.Tests\\stardust.Game.Tests.csproj",
+      "stardust.Resources\\stardust.Resources.csproj"
+    ]
+  }
+}

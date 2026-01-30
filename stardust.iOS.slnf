@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "stardust.sln",
+    "projects": [
+      "stardust.Game\\stardust.Game.csproj",
+      "stardust.Resources\\stardust.Resources.csproj",
+      "stardust.iOS\\stardust.iOS.csproj"
+    ]
+  }
+}
