@@ -1,4 +1,4 @@
-<img width="200" height="200" alt="logo" src="https://github.com/user-attachments/assets/aef05e37-bff4-4c1d-9f79-54e5ee362a06" />
+<p align="center"><img width="300" height="300" alt="logo" src="https://github.com/user-attachments/assets/aef05e37-bff4-4c1d-9f79-54e5ee362a06" /> </p>
 
 # Welcome to Stardust [![GitHub release](https://img.shields.io/github/release/coe-msic/stardust.svg)](https://GitHub.com/coe-msic/stardust/releases/) [![GitHub commits](https://badgen.net/github/commits/coe-msic/stardust)](https://GitHub.com/coe-msic/stardust/commit/) [![GitHub contributors](https://badgen.net/github/contributors/coe-msic/stardust)](https://GitHub.com/coe-msic/stardust/graphs/contributors/)
 ### A IDE / Game Engine for the osu! Framework
