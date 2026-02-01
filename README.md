@@ -15,6 +15,8 @@ Code: [VSCodium](https://github.com/VSCodium/vscodium)
 
 Programming language: C# (.NET 8)
 
+## Copyright
+ The osu! Framework is licensed under the MIT Licence
 
 ## Our Contributers
 
