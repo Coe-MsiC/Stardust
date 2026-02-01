@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "of_project.sln",
+    "projects": [
+      "of_project.Desktop\\of_project.Desktop.csproj",
+      "of_project.Game\\of_project.Game.csproj",
+      "of_project.Game.Tests\\of_project.Game.Tests.csproj",
+      "of_project.Resources\\of_project.Resources.csproj"
+    ]
+  }
+}
