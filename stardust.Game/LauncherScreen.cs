@@ -7,29 +7,25 @@ using osuTK.Graphics;
 
 namespace stardust.Game
 {
-    public partial class MainScreen : Screen
+    public partial class LauncherScreen : Screen
     {
         [BackgroundDependencyLoader]
         private void load()
         {
             InternalChildren = new Drawable[]
             {
-                new Box
+                new FillFlowContainer // RecentProjectsList
                 {
-                    Colour = Color4.Violet,
+                    //Colour = Color4.Violet,
                     RelativeSizeAxes = Axes.Both,
                 },
                 new SpriteText
                 {
                     Y = 20,
-                    Text = "Main Screen",
+                    Text = "Projects",
                     Anchor = Anchor.TopCentre,
                     Origin = Anchor.TopCentre,
                     Font = FontUsage.Default.With(size: 40)
-                },
-                new SpinningBox
-                {
-                    Anchor = Anchor.Centre,
                 }
             };
         }
