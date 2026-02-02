@@ -7,17 +7,17 @@ using osuTK.Graphics;
 
 namespace stardust.Game
 {
-    public partial class LauncherScreen : Screen
+    public partial class MainScreen : Screen
     {
         [BackgroundDependencyLoader]
         private void load()
         {
             InternalChildren = new Drawable[]
             {
-                new FillFlowContainer // RecentProjectsList
+                new FillFlowContainer   // RecentProjectsList
                 {
                     //Colour = Color4.Violet,
-                    RelativeSizeAxes = Axes.Both,
+                    //RelativeSizeAxes = Axes.Both,
                 },
                 new SpriteText
                 {
@@ -31,3 +31,4 @@ namespace stardust.Game
         }
     }
 }
+ 

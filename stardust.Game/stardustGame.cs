@@ -20,7 +20,7 @@ namespace stardust.Game
         {
             base.LoadComplete();
 
-            screenStack.Push(new LauncherScreen());
+            screenStack.Push(new MainScreen());
         }
     }
 }
