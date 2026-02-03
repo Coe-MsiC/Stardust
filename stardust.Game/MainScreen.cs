@@ -2,8 +2,10 @@ using osu.Framework.Allocation;
 using osu.Framework.Graphics;
 using osu.Framework.Graphics.Shapes;
 using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Containers;
 using osu.Framework.Screens;
 using osuTK.Graphics;
+using osuTK;
 
 namespace stardust.Game
 {
@@ -12,13 +14,10 @@ namespace stardust.Game
         [BackgroundDependencyLoader]
         private void load()
         {
+
             InternalChildren = new Drawable[]
             {
-                new FillFlowContainer   // RecentProjectsList
-                {
-                    //Colour = Color4.Violet,
-                    //RelativeSizeAxes = Axes.Both,
-                },
+
                 new SpriteText
                 {
                     Y = 20,
@@ -26,8 +25,9 @@ namespace stardust.Game
                     Anchor = Anchor.TopCentre,
                     Origin = Anchor.TopCentre,
                     Font = FontUsage.Default.With(size: 40)
-                }
+                },
             };
+
         }
     }
 }

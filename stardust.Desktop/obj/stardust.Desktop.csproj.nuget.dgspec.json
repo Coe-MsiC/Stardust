@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj": {}
+  },
+  "projects": {
+    "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj": {
+      "version": "0.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj",
+        "projectName": "stardust",
+        "projectPath": "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj",
+        "packagesPath": "/home/coemsic/.nuget/packages/",
+        "outputPath": "/home/coemsic/of/stardust/stardust.Desktop/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coemsic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj": {
+                "projectPath": "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj",
+        "projectName": "stardust.Game",
+        "projectPath": "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj",
+        "packagesPath": "/home/coemsic/.nuget/packages/",
+        "outputPath": "/home/coemsic/of/stardust/stardust.Game/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coemsic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/coemsic/of/stardust/stardust.Resources/stardust.Resources.csproj": {
+                "projectPath": "/home/coemsic/of/stardust/stardust.Resources/stardust.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ppy.osu.Framework": {
+              "target": "Package",
+              "version": "[2026.108.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/coemsic/of/stardust/stardust.Resources/stardust.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coemsic/of/stardust/stardust.Resources/stardust.Resources.csproj",
+        "projectName": "stardust.Resources",
+        "projectPath": "/home/coemsic/of/stardust/stardust.Resources/stardust.Resources.csproj",
+        "packagesPath": "/home/coemsic/.nuget/packages/",
+        "outputPath": "/home/coemsic/of/stardust/stardust.Resources/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coemsic/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2528 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FFmpeg.AutoGen/4.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HidSharpCore/1.2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/HidSharpCore.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/HidSharpCore.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2023.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "managed-midi/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Commons.Music.Midi.dll": {
+            "related": ".pdb"
+          },
+          "lib/netcoreapp2.1/alsa-sharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Commons.Music.Midi.dll": {
+            "related": ".pdb"
+          },
+          "lib/netcoreapp2.1/alsa-sharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Markdig/0.23.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.Runtime/2.0.161401": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Diagnostics.NETCore.Client": "0.2.61701",
+          "System.Buffers": "4.5.1",
+          "System.Collections.Immutable": "1.7.1",
+          "System.Memory": "4.5.4",
+          "System.Reflection.Metadata": "1.8.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-rc.1.21451.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.1.21451.13",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-rc.1.21451.13"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.1.21451.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/5.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "NETStandard.Library/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "OpenTabletDriver/0.6.6.2": {
+        "type": "package",
+        "dependencies": {
+          "HidSharpCore": "1.2.1.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-rc.1.21451.13",
+          "Newtonsoft.Json": "13.0.1",
+          "OpenTabletDriver.Configurations": "0.6.6.2",
+          "OpenTabletDriver.Native": "0.6.6.2",
+          "OpenTabletDriver.Plugin": "0.6.6.2"
+        },
+        "compile": {
+          "lib/net8.0/OpenTabletDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenTabletDriver.dll": {}
+        }
+      },
+      "OpenTabletDriver.Configurations/0.6.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "OpenTabletDriver.Plugin": "0.6.6.2"
+        },
+        "compile": {
+          "lib/net8.0/OpenTabletDriver.Configurations.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenTabletDriver.Configurations.dll": {}
+        }
+      },
+      "OpenTabletDriver.Native/0.6.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/OpenTabletDriver.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenTabletDriver.Native.dll": {}
+        }
+      },
+      "OpenTabletDriver.Plugin/0.6.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenTabletDriver.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenTabletDriver.Plugin.dll": {}
+        }
+      },
+      "PolySharp/1.10.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/PolySharp.targets": {}
+        }
+      },
+      "ppy.ManagedBass/2022.1216.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ppy.ManagedBass.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ppy.ManagedBass.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.ManagedBass.Fx/2022.1216.0": {
+        "type": "package",
+        "dependencies": {
+          "ppy.ManagedBass": "2022.1216.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/ppy.ManagedBass.Fx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ppy.ManagedBass.Fx.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.ManagedBass.Mix/2022.1216.0": {
+        "type": "package",
+        "dependencies": {
+          "ppy.ManagedBass": "2022.1216.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/ppy.ManagedBass.Mix.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ppy.ManagedBass.Mix.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.ManagedBass.Wasapi/2022.1216.0": {
+        "type": "package",
+        "dependencies": {
+          "ppy.ManagedBass": "2022.1216.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.osu.Framework/2026.108.0": {
+        "type": "package",
+        "dependencies": {
+          "FFmpeg.AutoGen": "4.3.0.1",
+          "JetBrains.Annotations": "2023.3.0",
+          "Markdig": "0.23.0",
+          "Microsoft.Diagnostics.Runtime": "2.0.161401",
+          "Microsoft.Extensions.ObjectPool": "5.0.11",
+          "NUnit": "3.13.3",
+          "Newtonsoft.Json": "13.0.3",
+          "OpenTabletDriver": "0.6.6.2",
+          "SharpFNT": "2.0.0",
+          "SixLabors.ImageSharp": "3.1.11",
+          "StbiSharp": "1.1.0",
+          "System.Numerics.Tensors": "8.0.0",
+          "managed-midi": "1.10.1",
+          "ppy.ManagedBass": "2022.1216.0",
+          "ppy.ManagedBass.Fx": "2022.1216.0",
+          "ppy.ManagedBass.Mix": "2022.1216.0",
+          "ppy.ManagedBass.Wasapi": "2022.1216.0",
+          "ppy.SDL2-CS": "1.0.741-alpha",
+          "ppy.SDL3-CS": "2025.1205.0",
+          "ppy.Veldrid": "4.9.69-ga405fe8484",
+          "ppy.Veldrid.SPIRV": "1.0.15-g5911265ec3",
+          "ppy.osu.Framework.NativeLibs": "2025.806.0-nativelibs",
+          "ppy.osu.Framework.SourceGeneration": "2025.1121.1",
+          "ppy.osuTK.NS20": "1.0.211"
+        },
+        "compile": {
+          "lib/net8.0/osu.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/osu.Framework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.osu.Framework.NativeLibs/2025.806.0-nativelibs": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/android/native/_._": {
+            "assetType": "native",
+            "rid": "android"
+          },
+          "runtimes/linux-arm64/native/libavcodec.so.58": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libavformat.so.58": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libavutil.so.56": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libbass.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libbass_fx.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libbassmix.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libswscale.so.5": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libavcodec.so.58": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libavformat.so.58": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libavutil.so.56": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbass.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbass_fx.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbassmix.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libswscale.so.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libbass.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libbass_fx.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libbassmix.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx/native/libavcodec.58.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libavformat.58.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libavutil.56.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libbass.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libbass_fx.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libbassmix.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libswscale.5.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-arm64/native/avcodec-58.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/avformat-58.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/avutil-56.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/bass.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/bass_fx.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/bassmix.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/swscale-5.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/avcodec-58.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avformat-58.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avutil-56.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bass.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bass_fx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bassmix.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/basswasapi.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/swscale-5.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/avcodec-58.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/avformat-58.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/avutil-56.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/bass.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/bass_fx.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/bassmix.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/basswasapi.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/swscale-5.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ppy.osu.Framework.SourceGeneration/2025.1121.1": {
+        "type": "package"
+      },
+      "ppy.osuTK.NS20/1.0.211": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/osuTK.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/osuTK.dll": {}
+        }
+      },
+      "ppy.SDL2-CS/1.0.741-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SDL2-CS.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SDL2-CS.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/ios/native/SDL2.xcframework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/SDL2": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/SDL2": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-x64/native/libSDL2.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libSDL2.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-arm64/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ppy.SDL3-CS/2025.1205.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/SDL3-CS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SDL3-CS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios/native/SDL3.xcframework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/SDL3": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/SDL3": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-arm/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libSDL3.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-arm64/native/libSDL3.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libSDL3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/SDL3.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/SDL3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ppy.Veldrid/4.9.69-ga405fe8484": {
+        "type": "package",
+        "dependencies": {
+          "Vortice.D3DCompiler": "2.4.2",
+          "Vortice.Direct3D11": "2.4.2",
+          "ppy.Veldrid.MetalBindings": "4.9.69-ga405fe8484",
+          "ppy.Veldrid.OpenGLBindings": "4.9.69-ga405fe8484",
+          "ppy.Vk": "1.0.26"
+        },
+        "compile": {
+          "lib/net8.0/ppy.Veldrid.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ppy.Veldrid.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ppy.Veldrid.MetalBindings/4.9.69-ga405fe8484": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ppy.Veldrid.MetalBindings.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ppy.Veldrid.MetalBindings.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "ppy.Veldrid.OpenGLBindings/4.9.69-ga405fe8484": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ppy.Veldrid.OpenGLBindings.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ppy.Veldrid.OpenGLBindings.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3": {
+        "type": "package",
+        "dependencies": {
+          "ppy.Veldrid": "4.9.69-ga405fe8484"
+        },
+        "compile": {
+          "lib/net8.0/ppy.Veldrid.SPIRV.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ppy.Veldrid.SPIRV.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64/veldrid-spirv.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64/veldrid-spirv.framework/veldrid-spirv": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64_x86_64-simulator/veldrid-spirv.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64_x86_64-simulator/veldrid-spirv.framework/veldrid-spirv": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-arm64/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libveldrid-spirv.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-arm64/native/libveldrid-spirv.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libveldrid-spirv.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libveldrid-spirv.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ppy.Vk/1.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/vk.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/vk.dll": {}
+        }
+      },
+      "SharpFNT/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/SharpFNT.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/SharpFNT.dll": {}
+        }
+      },
+      "SharpGen.Runtime/2.0.0-beta.13": {
+        "type": "package",
+        "dependencies": {
+          "PolySharp": "1.10.0"
+        },
+        "compile": {
+          "lib/net7.0/SharpGen.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/SharpGen.Runtime.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.13": {
+        "type": "package",
+        "dependencies": {
+          "PolySharp": "1.10.0",
+          "SharpGen.Runtime": "2.0.0-beta.13"
+        },
+        "compile": {
+          "lib/net7.0/SharpGen.Runtime.COM.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/SharpGen.Runtime.COM.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "SixLabors.ImageSharp/3.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "StbiSharp/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/StbiSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/StbiSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libstbi.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libstbi.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/stbi.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/stbi.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Numerics.Tensors/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Reflection.Metadata/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.1.21451.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Vortice.D3DCompiler/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DirectX": "2.4.2",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.D3DCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.D3DCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.Direct3D11/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DXGI": "2.4.2",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.DirectX/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "compile": {
+          "lib/net7.0/Vortice.DirectX.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Vortice.DirectX.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.DXGI/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.13",
+          "SharpGen.Runtime.COM": "2.0.0-beta.13",
+          "Vortice.DirectX": "2.4.2",
+          "Vortice.Mathematics": "1.4.25"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.Mathematics/1.4.25": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Vortice.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Vortice.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "stardust.Game/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ppy.osu.Framework": "2026.108.0",
+          "stardust.Resources": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/stardust.Game.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/stardust.Game.dll": {}
+        }
+      },
+      "stardust.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/stardust.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/stardust.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FFmpeg.AutoGen/4.3.0.1": {
+      "sha512": "koM5zqdZZHGAVK0faNZgi9HjCrHrMRGaTqmTEbvMSx3YeNIZBd62JQMZjAE0HlQ3NsLnRvXigVJtwRidOnosUw==",
+      "type": "package",
+      "path": "ffmpeg.autogen/4.3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ffmpeg.autogen.4.3.0.1.nupkg.sha512",
+        "ffmpeg.autogen.nuspec",
+        "lib/net40/FFmpeg.AutoGen.dll",
+        "lib/net40/FFmpeg.AutoGen.xml",
+        "lib/net45/FFmpeg.AutoGen.dll",
+        "lib/net45/FFmpeg.AutoGen.xml",
+        "lib/net472/FFmpeg.AutoGen.dll",
+        "lib/net472/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.0/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.0/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.1/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.1/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "HidSharpCore/1.2.1.1": {
+      "sha512": "NJOXoNiMby/DQn1mttFWp88LXLITs6swXpLtFUFTMTJJEFgCDs0UbcpxH8Oc1N1N/pgduaiG2TC9OYOCEEgv/A==",
+      "type": "package",
+      "path": "hidsharpcore/1.2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hidsharpcore.1.2.1.1.nupkg.sha512",
+        "hidsharpcore.nuspec",
+        "lib/net5.0/HidSharpCore.dll"
+      ]
+    },
+    "JetBrains.Annotations/2023.3.0": {
+      "sha512": "PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA==",
+      "type": "package",
+      "path": "jetbrains.annotations/2023.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2023.3.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "managed-midi/1.10.1": {
+      "sha512": "5k3IOpByUZku1kDDFLhD25NwogNeXipH7bPE2b+WIRwpJdntRuIv4NchZoI5AMZxTzzSZW6If/l9+zhLxzORgA==",
+      "type": "package",
+      "path": "managed-midi/1.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/MonoAndroid/Commons.Music.Midi.dll",
+        "lib/MonoAndroid/Commons.Music.Midi.pdb",
+        "lib/XamarinMac/Commons.Music.Midi.dll",
+        "lib/XamarinMac/Commons.Music.Midi.pdb",
+        "lib/XamariniOS/Commons.Music.Midi.dll",
+        "lib/XamariniOS/Commons.Music.Midi.pdb",
+        "lib/net45/Commons.Music.Midi.dll",
+        "lib/net45/Commons.Music.Midi.pdb",
+        "lib/net45/alsa-sharp.dll",
+        "lib/net45/alsa-sharp.pdb",
+        "lib/net6.0-ios16/Commons.Music.Midi.dll",
+        "lib/net6.0-ios16/Commons.Music.Midi.pdb",
+        "lib/netcoreapp2.1/Commons.Music.Midi.dll",
+        "lib/netcoreapp2.1/Commons.Music.Midi.pdb",
+        "lib/netcoreapp2.1/alsa-sharp.dll",
+        "lib/netcoreapp2.1/alsa-sharp.pdb",
+        "lib/netstandard2.0/Commons.Music.Midi.deps.json",
+        "lib/netstandard2.0/Commons.Music.Midi.dll",
+        "lib/netstandard2.0/Commons.Music.Midi.pdb",
+        "lib/uap10.0/Commons.Music.Midi.dll",
+        "lib/uap10.0/Commons.Music.Midi.pdb",
+        "lib/uap10.0/Commons.Music.Midi.pri",
+        "managed-midi.1.10.1.nupkg.sha512",
+        "managed-midi.nuspec"
+      ]
+    },
+    "Markdig/0.23.0": {
+      "sha512": "jPPcnHGSDSedPvwZ6jiMJpvK3iJGA2djU6TFmEr6XK2BiYK1ier2lTHVwDt41XLxDbfGu5Dn42hKDzwqs049PA==",
+      "type": "package",
+      "path": "markdig/0.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Markdig.dll",
+        "lib/net452/Markdig.xml",
+        "lib/netcoreapp2.1/Markdig.dll",
+        "lib/netcoreapp2.1/Markdig.xml",
+        "lib/netcoreapp3.1/Markdig.dll",
+        "lib/netcoreapp3.1/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/netstandard2.1/Markdig.dll",
+        "lib/netstandard2.1/Markdig.xml",
+        "markdig.0.23.0.nupkg.sha512",
+        "markdig.nuspec",
+        "markdig.png"
+      ]
+    },
+    "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
+      "sha512": "/whUqXLkTiUvG+vfSFd77DHHsLZW2HztZt+ACOpuvGyLKoGGN86M8cR1aYfRW6fxXF3SVGMKMswcL485SQEDuQ==",
+      "type": "package",
+      "path": "microsoft.diagnostics.netcore.client/0.2.61701",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.1/Microsoft.Diagnostics.NETCore.Client.dll",
+        "lib/netcoreapp2.1/Microsoft.Diagnostics.NETCore.Client.xml",
+        "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll",
+        "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.xml",
+        "microsoft.diagnostics.netcore.client.0.2.61701.nupkg.sha512",
+        "microsoft.diagnostics.netcore.client.nuspec"
+      ]
+    },
+    "Microsoft.Diagnostics.Runtime/2.0.161401": {
+      "sha512": "nNmtpo0LC265E66GyoftYZ3TSyptF+i3so/wc9AAtKK0w85Nrkz2EiF0oOzJgBXVw5grrbusxoiPOEpZoVkSSg==",
+      "type": "package",
+      "path": "microsoft.diagnostics.runtime/2.0.161401",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License-Stable.rtf",
+        "lib/net461/Microsoft.Diagnostics.Runtime.dll",
+        "lib/net461/Microsoft.Diagnostics.Runtime.pdb",
+        "lib/net461/Microsoft.Diagnostics.Runtime.xml",
+        "lib/net5.0/Microsoft.Diagnostics.Runtime.dll",
+        "lib/net5.0/Microsoft.Diagnostics.Runtime.pdb",
+        "lib/net5.0/Microsoft.Diagnostics.Runtime.xml",
+        "lib/netcoreapp3.1/Microsoft.Diagnostics.Runtime.dll",
+        "lib/netcoreapp3.1/Microsoft.Diagnostics.Runtime.pdb",
+        "lib/netcoreapp3.1/Microsoft.Diagnostics.Runtime.xml",
+        "lib/netstandard2.0/Microsoft.Diagnostics.Runtime.dll",
+        "lib/netstandard2.0/Microsoft.Diagnostics.Runtime.pdb",
+        "lib/netstandard2.0/Microsoft.Diagnostics.Runtime.xml",
+        "microsoft.diagnostics.runtime.2.0.161401.nupkg.sha512",
+        "microsoft.diagnostics.runtime.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0-rc.1.21451.13": {
+      "sha512": "AzaHBfCQnUzcb0HkAiHQ+AgmzUyCpgx9Oi9nsFQOadbRnlCZZ5y4ax9iDC87HIXTMDDpnZcgBtNNZGFIJXsfMw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0-rc.1.21451.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.6.0.0-rc.1.21451.13.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.1.21451.13": {
+      "sha512": "wdfdTQe1RQ2tu+oGqk8xKPir/GDI2hc6CtL+gdQVqQxvDskfWjxvMKKwZUv2WKFdxsvGCQyt6QNBVYjkDSDjzw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-rc.1.21451.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0-rc.1.21451.13.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/5.0.11": {
+      "sha512": "wrnbqdJ90oMzaw0kPssjhbP9zQGxU0ch3zS4WTmVy+g/qIRUEyxgOA2jeeNrJilpm1Pz3tHGBU8tvK2GR+dw2A==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/5.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net461/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net5.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net5.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.5.0.11.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "NETStandard.Library/2.0.0": {
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "type": "package",
+      "path": "netstandard.library/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/NETStandard.Library.targets",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NUnit/3.13.3": {
+      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+      "type": "package",
+      "path": "nunit/3.13.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.13.3.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "OpenTabletDriver/0.6.6.2": {
+      "sha512": "GFnwANjzPlAXbA7i3uefjnJ70C0KFfM6aK3hpI421D2PC/RV0oof120/o+ZQFnr3/ppO5Ohww+/6MV6JE3qe2w==",
+      "type": "package",
+      "path": "opentabletdriver/0.6.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/OpenTabletDriver.dll",
+        "opentabletdriver.0.6.6.2.nupkg.sha512",
+        "opentabletdriver.nuspec"
+      ]
+    },
+    "OpenTabletDriver.Configurations/0.6.6.2": {
+      "sha512": "JjeUe6vPeJjQgh0Fbz8+jnYiZ8PC4twngs3GcJNvgZWMecyF/3AflMq3k+bLrZTn6ledhG+a/tmu8HcvMyDlzg==",
+      "type": "package",
+      "path": "opentabletdriver.configurations/0.6.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/OpenTabletDriver.Configurations.dll",
+        "opentabletdriver.configurations.0.6.6.2.nupkg.sha512",
+        "opentabletdriver.configurations.nuspec"
+      ]
+    },
+    "OpenTabletDriver.Native/0.6.6.2": {
+      "sha512": "3tm9WduUk8CQ6I4zyeEkgvHw0+4Al8zAMBb/t42rZUXohYie4W789kQ4KBy0fEofWtn9b/Kd/0klAFG1u1YP2w==",
+      "type": "package",
+      "path": "opentabletdriver.native/0.6.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/OpenTabletDriver.Native.dll",
+        "opentabletdriver.native.0.6.6.2.nupkg.sha512",
+        "opentabletdriver.native.nuspec"
+      ]
+    },
+    "OpenTabletDriver.Plugin/0.6.6.2": {
+      "sha512": "aLm/byiehF7ZFxIRx3SLNGkdr/xHvwBEDC9zi8mdva0neT1mKJzki6YvyxcztkRU6eHrXSXSr2vyHSNT71f2nw==",
+      "type": "package",
+      "path": "opentabletdriver.plugin/0.6.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/OpenTabletDriver.Plugin.dll",
+        "opentabletdriver.plugin.0.6.6.2.nupkg.sha512",
+        "opentabletdriver.plugin.nuspec"
+      ]
+    },
+    "PolySharp/1.10.0": {
+      "sha512": "+uNyVhhKOskjJLKOwIQ2qGaA0T507FaMbz5RwLAtmRaMaTAcUAZAiZvSk4Z8z6GkmqOyO1zryYNXmO0Vh7IrYQ==",
+      "type": "package",
+      "path": "polysharp/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/PolySharp.SourceGenerators.dll",
+        "analyzers/dotnet/cs/PolySharp.SourceGenerators.xml",
+        "build/PolySharp.targets",
+        "buildTransitive/PolySharp.targets",
+        "icon.png",
+        "polysharp.1.10.0.nupkg.sha512",
+        "polysharp.nuspec"
+      ]
+    },
+    "ppy.ManagedBass/2022.1216.0": {
+      "sha512": "M4qapV6rapjvLD7b/O9RmCeS4ysRpLOS6JxyTaULq7KZ4BdZ+q+Q7kAHEa4RYApWr0KrT+7fLBIH7bGPoyxPCg==",
+      "type": "package",
+      "path": "ppy.managedbass/2022.1216.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/Xamarin.iOS/ppy.ManagedBass.dll",
+        "lib/Xamarin.iOS/ppy.ManagedBass.xml",
+        "lib/net45/ppy.ManagedBass.dll",
+        "lib/net45/ppy.ManagedBass.xml",
+        "lib/netstandard2.1/ppy.ManagedBass.dll",
+        "lib/netstandard2.1/ppy.ManagedBass.xml",
+        "ppy.managedbass.2022.1216.0.nupkg.sha512",
+        "ppy.managedbass.nuspec"
+      ]
+    },
+    "ppy.ManagedBass.Fx/2022.1216.0": {
+      "sha512": "25gtJKFf4jmyZwDCSMkUIvmho1ahOq4X+V+lpoImzCF3SBFZiGRXZWhv6q8exCw+fei2YdqDYlgxXaQpGPCLAw==",
+      "type": "package",
+      "path": "ppy.managedbass.fx/2022.1216.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/netstandard2.1/ppy.ManagedBass.Fx.dll",
+        "lib/netstandard2.1/ppy.ManagedBass.Fx.xml",
+        "ppy.managedbass.fx.2022.1216.0.nupkg.sha512",
+        "ppy.managedbass.fx.nuspec"
+      ]
+    },
+    "ppy.ManagedBass.Mix/2022.1216.0": {
+      "sha512": "srvUaD7EYA+mACB6tvIl/8zMYREgde88v+lxZ1GM19yP+190P3FwsiT6E1bAOJxGn/TrrmTOBz7v6eofVziCdw==",
+      "type": "package",
+      "path": "ppy.managedbass.mix/2022.1216.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/netstandard2.1/ppy.ManagedBass.Mix.dll",
+        "lib/netstandard2.1/ppy.ManagedBass.Mix.xml",
+        "ppy.managedbass.mix.2022.1216.0.nupkg.sha512",
+        "ppy.managedbass.mix.nuspec"
+      ]
+    },
+    "ppy.ManagedBass.Wasapi/2022.1216.0": {
+      "sha512": "xL8KjGdgQzSDjdwvKzRslZ2ejTzswJZPrkmgYAf8gGtCd2YyUu1xxGzu5fvSfHFqOjGeJiN2dEg8BfxpoTITZw==",
+      "type": "package",
+      "path": "ppy.managedbass.wasapi/2022.1216.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll",
+        "lib/netstandard2.1/ppy.ManagedBass.Wasapi.xml",
+        "ppy.managedbass.wasapi.2022.1216.0.nupkg.sha512",
+        "ppy.managedbass.wasapi.nuspec"
+      ]
+    },
+    "ppy.osu.Framework/2026.108.0": {
+      "sha512": "ae6Z+P5+yy4knlLoUxo+I4rTIZlvusWO32sMCljU+jXMCiQG9N7OnR1SYDcnpVNRbnd1dJEwXZrCOwH+WfUGUA==",
+      "type": "package",
+      "path": "ppy.osu.framework/2026.108.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net8.0/osu.Framework.dll",
+        "lib/net8.0/osu.Framework.xml",
+        "ppy.osu.framework.2026.108.0.nupkg.sha512",
+        "ppy.osu.framework.nuspec"
+      ]
+    },
+    "ppy.osu.Framework.NativeLibs/2025.806.0-nativelibs": {
+      "sha512": "andr6OYdjUCpglWMdKoXarGVcgQFza3oRZ8LMJFHjv31N2tO6v9DTs6gZdJB8YWuOBMn77A6Eg3Hy38UZhD9IA==",
+      "type": "package",
+      "path": "ppy.osu.framework.nativelibs/2025.806.0-nativelibs",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net8.0/_._",
+        "ppy.osu.framework.nativelibs.2025.806.0-nativelibs.nupkg.sha512",
+        "ppy.osu.framework.nativelibs.nuspec",
+        "runtimes/android/native/_._",
+        "runtimes/linux-arm64/native/libavcodec.so.58",
+        "runtimes/linux-arm64/native/libavformat.so.58",
+        "runtimes/linux-arm64/native/libavutil.so.56",
+        "runtimes/linux-arm64/native/libbass.so",
+        "runtimes/linux-arm64/native/libbass_fx.so",
+        "runtimes/linux-arm64/native/libbassmix.so",
+        "runtimes/linux-arm64/native/libswscale.so.5",
+        "runtimes/linux-x64/native/libavcodec.so.58",
+        "runtimes/linux-x64/native/libavformat.so.58",
+        "runtimes/linux-x64/native/libavutil.so.56",
+        "runtimes/linux-x64/native/libbass.so",
+        "runtimes/linux-x64/native/libbass_fx.so",
+        "runtimes/linux-x64/native/libbassmix.so",
+        "runtimes/linux-x64/native/libswscale.so.5",
+        "runtimes/linux-x86/native/libbass.so",
+        "runtimes/linux-x86/native/libbass_fx.so",
+        "runtimes/linux-x86/native/libbassmix.so",
+        "runtimes/osx/native/libavcodec.58.dylib",
+        "runtimes/osx/native/libavformat.58.dylib",
+        "runtimes/osx/native/libavutil.56.dylib",
+        "runtimes/osx/native/libbass.dylib",
+        "runtimes/osx/native/libbass_fx.dylib",
+        "runtimes/osx/native/libbassmix.dylib",
+        "runtimes/osx/native/libswscale.5.dylib",
+        "runtimes/win-arm64/native/avcodec-58.dll",
+        "runtimes/win-arm64/native/avformat-58.dll",
+        "runtimes/win-arm64/native/avutil-56.dll",
+        "runtimes/win-arm64/native/bass.dll",
+        "runtimes/win-arm64/native/bass_fx.dll",
+        "runtimes/win-arm64/native/bassmix.dll",
+        "runtimes/win-arm64/native/swscale-5.dll",
+        "runtimes/win-x64/native/avcodec-58.dll",
+        "runtimes/win-x64/native/avformat-58.dll",
+        "runtimes/win-x64/native/avutil-56.dll",
+        "runtimes/win-x64/native/bass.dll",
+        "runtimes/win-x64/native/bass_fx.dll",
+        "runtimes/win-x64/native/bassmix.dll",
+        "runtimes/win-x64/native/basswasapi.dll",
+        "runtimes/win-x64/native/swscale-5.dll",
+        "runtimes/win-x86/native/avcodec-58.dll",
+        "runtimes/win-x86/native/avformat-58.dll",
+        "runtimes/win-x86/native/avutil-56.dll",
+        "runtimes/win-x86/native/bass.dll",
+        "runtimes/win-x86/native/bass_fx.dll",
+        "runtimes/win-x86/native/bassmix.dll",
+        "runtimes/win-x86/native/basswasapi.dll",
+        "runtimes/win-x86/native/swscale-5.dll"
+      ]
+    },
+    "ppy.osu.Framework.SourceGeneration/2025.1121.1": {
+      "sha512": "aKapKe8XtU6+bM+5vWxfF8P3IEI6N/oN0xwSqNr+T/czDSKlHAMsEvNJy2mCdcJeEU1e0SxIM703wWrb8g1jqA==",
+      "type": "package",
+      "path": "ppy.osu.framework.sourcegeneration/2025.1121.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/osu.Framework.SourceGeneration.dll",
+        "icon.png",
+        "ppy.osu.framework.sourcegeneration.2025.1121.1.nupkg.sha512",
+        "ppy.osu.framework.sourcegeneration.nuspec"
+      ]
+    },
+    "ppy.osuTK.NS20/1.0.211": {
+      "sha512": "6KkAn062tb1cD8letZpqcUZgTKmRetYD4hnudGtP32FoODtDFdjAGz+0tg82o/mtZxOyAPWuQk5ohtlRCaWbLg==",
+      "type": "package",
+      "path": "ppy.osutk.ns20/1.0.211",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/osuTK.dll",
+        "ppy.osutk.ns20.1.0.211.nupkg.sha512",
+        "ppy.osutk.ns20.nuspec"
+      ]
+    },
+    "ppy.SDL2-CS/1.0.741-alpha": {
+      "sha512": "6mjubcZCHcYRog2nit9gmcQss7hTprnAvfR9U3UmCcEi1KoNyzKDuI862mNae0dmgLPviSubywG08e54jT52Lg==",
+      "type": "package",
+      "path": "ppy.sdl2-cs/1.0.741-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/app.config",
+        "contentFiles/any/net6.0/app.config",
+        "lib/net6.0/SDL2-CS.dll",
+        "ppy.sdl2-cs.1.0.741-alpha.nupkg.sha512",
+        "ppy.sdl2-cs.nuspec",
+        "runtimes/ios/native/SDL2.xcframework/Info.plist",
+        "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/Info.plist",
+        "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/SDL2",
+        "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/Info.plist",
+        "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/SDL2",
+        "runtimes/linux-x64/native/libSDL2.so",
+        "runtimes/linux-x86/native/libSDL2.so",
+        "runtimes/osx-arm64/native/libSDL2.dylib",
+        "runtimes/osx-x64/native/libSDL2.dylib",
+        "runtimes/win-arm64/native/SDL2.dll",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x86/native/SDL2.dll"
+      ]
+    },
+    "ppy.SDL3-CS/2025.1205.0": {
+      "sha512": "5KMnrH5NXzqxDmdm2UOeCYfCh/Djh0TJQeGRtWhRaeU7yOZyN1GoqgPWIm0bXUtk9DKk3Cl4u0dkTlhGjn/s8w==",
+      "type": "package",
+      "path": "ppy.sdl3-cs/2025.1205.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README_nuget.md",
+        "lib/net8.0-android34.0/SDL3-CS.aar",
+        "lib/net8.0-android34.0/SDL3-CS.dll",
+        "lib/net8.0-android34.0/SDL3-CS.xml",
+        "lib/net8.0/SDL3-CS.dll",
+        "lib/net8.0/SDL3-CS.xml",
+        "ppy.sdl3-cs.2025.1205.0.nupkg.sha512",
+        "ppy.sdl3-cs.nuspec",
+        "runtimes/android-arm/native/libSDL3.so",
+        "runtimes/android-arm64/native/libSDL3.so",
+        "runtimes/android-x64/native/libSDL3.so",
+        "runtimes/android-x86/native/libSDL3.so",
+        "runtimes/ios/native/SDL3.xcframework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/SDL3",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/SDL3",
+        "runtimes/linux-arm/native/libSDL3.so",
+        "runtimes/linux-arm64/native/libSDL3.so",
+        "runtimes/linux-x64/native/libSDL3.so",
+        "runtimes/linux-x86/native/libSDL3.so",
+        "runtimes/osx-arm64/native/libSDL3.dylib",
+        "runtimes/osx-x64/native/libSDL3.dylib",
+        "runtimes/win-arm64/native/SDL3.dll",
+        "runtimes/win-x64/native/SDL3.dll",
+        "runtimes/win-x86/native/SDL3.dll"
+      ]
+    },
+    "ppy.Veldrid/4.9.69-ga405fe8484": {
+      "sha512": "TV+ufm1jC9jeWe4Ubb15/DI/9xbmZxx3+vsVDrRehHnTS9i/8I+vPMl7zsexInPG/Gb9NDgItL45C1hGrRl9qg==",
+      "type": "package",
+      "path": "ppy.veldrid/4.9.69-ga405fe8484",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/ppy.Veldrid.dll",
+        "lib/net8.0/ppy.Veldrid.pdb",
+        "lib/net8.0/ppy.Veldrid.xml",
+        "ppy.veldrid.4.9.69-ga405fe8484.nupkg.sha512",
+        "ppy.veldrid.nuspec"
+      ]
+    },
+    "ppy.Veldrid.MetalBindings/4.9.69-ga405fe8484": {
+      "sha512": "lRtFkLswqdLZmq9q5JC2IB4DT4tAVcutB/zTQUJ7MnGSWFutrj8cxDh3/orFMojS1VAaU19MMC6h6QXqAbUa7w==",
+      "type": "package",
+      "path": "ppy.veldrid.metalbindings/4.9.69-ga405fe8484",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/ppy.Veldrid.MetalBindings.dll",
+        "lib/net8.0/ppy.Veldrid.MetalBindings.pdb",
+        "ppy.veldrid.metalbindings.4.9.69-ga405fe8484.nupkg.sha512",
+        "ppy.veldrid.metalbindings.nuspec"
+      ]
+    },
+    "ppy.Veldrid.OpenGLBindings/4.9.69-ga405fe8484": {
+      "sha512": "DF7jtLhMDsPupDoSYawLiM2Ho3XzQyBwxKMWmAYO27CGgDoWLxVa/CGrGTzgHdprH//zIBM4eK0pvJzzL06CYA==",
+      "type": "package",
+      "path": "ppy.veldrid.openglbindings/4.9.69-ga405fe8484",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/ppy.Veldrid.OpenGLBindings.dll",
+        "lib/net8.0/ppy.Veldrid.OpenGLBindings.pdb",
+        "ppy.veldrid.openglbindings.4.9.69-ga405fe8484.nupkg.sha512",
+        "ppy.veldrid.openglbindings.nuspec"
+      ]
+    },
+    "ppy.Veldrid.SPIRV/1.0.15-g5911265ec3": {
+      "sha512": "hTHVEqmAJ/p6zlHBQKrg5pkCHiNFhEp1Ms5No7eur4E48ALUdPsnruedPMXIXye2vX2JLZa8CohZPOCgyApJNQ==",
+      "type": "package",
+      "path": "ppy.veldrid.spirv/1.0.15-g5911265ec3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/ppy.Veldrid.SPIRV.dll",
+        "lib/net8.0/ppy.Veldrid.SPIRV.xml",
+        "ppy.veldrid.spirv.1.0.15-g5911265ec3.nupkg.sha512",
+        "ppy.veldrid.spirv.nuspec",
+        "runtimes/android-arm/native/libveldrid-spirv.so",
+        "runtimes/android-arm64/native/libveldrid-spirv.so",
+        "runtimes/android-x64/native/libveldrid-spirv.so",
+        "runtimes/android-x86/native/libveldrid-spirv.so",
+        "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/Info.plist",
+        "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64/veldrid-spirv.framework/Info.plist",
+        "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64/veldrid-spirv.framework/veldrid-spirv",
+        "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64_x86_64-simulator/veldrid-spirv.framework/Info.plist",
+        "runtimes/ios/native/veldrid-spirv.xcframework/veldrid-spirv.xcframework/ios-arm64_x86_64-simulator/veldrid-spirv.framework/veldrid-spirv",
+        "runtimes/linux-arm64/native/libveldrid-spirv.so",
+        "runtimes/linux-x64/native/libveldrid-spirv.so",
+        "runtimes/osx/native/libveldrid-spirv.dylib",
+        "runtimes/win-arm64/native/libveldrid-spirv.dll",
+        "runtimes/win-x64/native/libveldrid-spirv.dll",
+        "runtimes/win-x86/native/libveldrid-spirv.dll"
+      ]
+    },
+    "ppy.Vk/1.0.26": {
+      "sha512": "hovUs8hPS2QUChNnaU/3IflJsVtXXMa3KSxRjA3gxBOalTYzL2jD35Dusf7bYDw+imeu56pResM7qDxvKXnvZw==",
+      "type": "package",
+      "path": "ppy.vk/1.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/vk.dll",
+        "lib/netstandard1.4/vk.dll",
+        "ppy.vk.1.0.26.nupkg.sha512",
+        "ppy.vk.nuspec"
+      ]
+    },
+    "SharpFNT/2.0.0": {
+      "sha512": "V+3yfhfbncNFZKnqUmUI+zsTI+SMxB47va4NE9Gxs8yfZfbOYI1T/jz99JZ+ZwpJzPryzm7J9cY9RJU3vTHAUA==",
+      "type": "package",
+      "path": "sharpfnt/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard1.3/SharpFNT.dll",
+        "sharpfnt.2.0.0.nupkg.sha512",
+        "sharpfnt.nuspec"
+      ]
+    },
+    "SharpGen.Runtime/2.0.0-beta.13": {
+      "sha512": "H+Up2Er3ptWzcQ+CAO652fEsBLAmoXqKqtvc/6ycRV9XfLN2XJch0h8CwKQ3muD6eADPFf8Xp+nDQ8wDpcRDlg==",
+      "type": "package",
+      "path": "sharpgen.runtime/2.0.0-beta.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Mapping.xml",
+        "build/SharpGen.Runtime.props",
+        "buildMultiTargeting/SharpGen.Runtime.props",
+        "lib/net461/SharpGen.Runtime.dll",
+        "lib/net471/SharpGen.Runtime.dll",
+        "lib/net6.0/SharpGen.Runtime.dll",
+        "lib/net7.0/SharpGen.Runtime.dll",
+        "lib/netcoreapp3.1/SharpGen.Runtime.dll",
+        "lib/netstandard2.0/SharpGen.Runtime.dll",
+        "lib/netstandard2.1/SharpGen.Runtime.dll",
+        "sharpgen.runtime.2.0.0-beta.13.nupkg.sha512",
+        "sharpgen.runtime.nuspec"
+      ]
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.13": {
+      "sha512": "H22LsE3XTIOevf2TJgPgPnfYmjMlCtN+QYZVxzXlgTrgG2jHSTUTKZpIMPbKliLJGCEnDfX6yvBJvya0/xRTkA==",
+      "type": "package",
+      "path": "sharpgen.runtime.com/2.0.0-beta.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/SharpGen.Runtime.COM.BindMapping.xml",
+        "build/SharpGen.Runtime.COM.props",
+        "buildMultiTargeting/SharpGen.Runtime.COM.props",
+        "lib/net461/SharpGen.Runtime.COM.dll",
+        "lib/net471/SharpGen.Runtime.COM.dll",
+        "lib/net6.0/SharpGen.Runtime.COM.dll",
+        "lib/net7.0/SharpGen.Runtime.COM.dll",
+        "lib/netcoreapp3.1/SharpGen.Runtime.COM.dll",
+        "lib/netstandard2.0/SharpGen.Runtime.COM.dll",
+        "lib/netstandard2.1/SharpGen.Runtime.COM.dll",
+        "sharpgen.runtime.com.2.0.0-beta.13.nupkg.sha512",
+        "sharpgen.runtime.com.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/3.1.11": {
+      "sha512": "JfPLyigLthuE50yi6tMt7Amrenr/fA31t2CvJyhy/kQmfulIBAqo5T/YFUSRHtuYPXRSaUHygFeh6Qd933EoSw==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.11.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "StbiSharp/1.1.0": {
+      "sha512": "4xHXYrSztnfDtDGX/sgbZtOXQ4K+0VSQoRPW6Ts2pWOZgXCEAtn3hc0CwwMMLzBLf8kc9KF/AcanIP3Vqgd0mw==",
+      "type": "package",
+      "path": "stbisharp/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/netcoreapp2.0/StbiSharp.dll",
+        "lib/netcoreapp3.0/StbiSharp.dll",
+        "lib/netstandard2.0/StbiSharp.dll",
+        "runtimes/linux-x64/native/libstbi.so",
+        "runtimes/osx-x64/native/libstbi.dylib",
+        "runtimes/win-x64/native/stbi.dll",
+        "runtimes/win-x64/native/stbi.lib",
+        "stbisharp.1.1.0.nupkg.sha512",
+        "stbisharp.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "type": "package",
+      "path": "system.collections.immutable/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Collections.Immutable.dll",
+        "lib/net461/System.Collections.Immutable.xml",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.7.1.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "lib/portable-net45+win8/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Tensors/8.0.0": {
+      "sha512": "fhODzTe9ON9IzmRfyVeA6L8yXOciMtpq1YufkRVBliggcVKZE+XDxqIn46+yF4PWR6wNPuDpXtPpuY86VcKxUA==",
+      "type": "package",
+      "path": "system.numerics.tensors/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Numerics.Tensors.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Numerics.Tensors.targets",
+        "lib/net462/System.Numerics.Tensors.dll",
+        "lib/net462/System.Numerics.Tensors.xml",
+        "lib/net6.0/System.Numerics.Tensors.dll",
+        "lib/net6.0/System.Numerics.Tensors.xml",
+        "lib/net7.0/System.Numerics.Tensors.dll",
+        "lib/net7.0/System.Numerics.Tensors.xml",
+        "lib/net8.0/System.Numerics.Tensors.dll",
+        "lib/net8.0/System.Numerics.Tensors.xml",
+        "lib/netstandard2.0/System.Numerics.Tensors.dll",
+        "lib/netstandard2.0/System.Numerics.Tensors.xml",
+        "system.numerics.tensors.8.0.0.nupkg.sha512",
+        "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Reflection.Metadata/1.8.1": {
+      "sha512": "1wrPLtYQFUGTsl9OqPzdzmMRdQvo3PRK38y+4rCHG0f6iyvSYwNXVr0orMvsu2orOIiVbk6MMckINI1g54ZvfA==",
+      "type": "package",
+      "path": "system.reflection.metadata/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Reflection.Metadata.dll",
+        "lib/net461/System.Reflection.Metadata.xml",
+        "lib/netstandard1.1/System.Reflection.Metadata.dll",
+        "lib/netstandard1.1/System.Reflection.Metadata.xml",
+        "lib/netstandard2.0/System.Reflection.Metadata.dll",
+        "lib/netstandard2.0/System.Reflection.Metadata.xml",
+        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.1.8.1.nupkg.sha512",
+        "system.reflection.metadata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.1.21451.13": {
+      "sha512": "B4MhG+nG2BX3Z0WR6MRG0YHCZKTskVEcP1M2Al3vWmMRgPuZgvAQ/bGP4gZqoVBWxJqzjgK5rs5o6i5XSfg2Jg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-rc.1.21451.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0-rc.1.21451.13.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Vortice.D3DCompiler/2.4.2": {
+      "sha512": "F/758/PioamTyLaVHY8qXK6lt1jKPDNa1VSRf/LGGhMYywVAAydK0xxhlGTrvfj3z+Amzk2fwliCNWTcvpD3Lw==",
+      "type": "package",
+      "path": "vortice.d3dcompiler/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.D3DCompiler.BindMapping.xml",
+        "build/Vortice.D3DCompiler.props",
+        "buildMultiTargeting/Vortice.D3DCompiler.props",
+        "lib/net6.0/Vortice.D3DCompiler.dll",
+        "lib/net6.0/Vortice.D3DCompiler.pdb",
+        "lib/net6.0/Vortice.D3DCompiler.xml",
+        "lib/netstandard2.0/Vortice.D3DCompiler.dll",
+        "lib/netstandard2.0/Vortice.D3DCompiler.pdb",
+        "lib/netstandard2.0/Vortice.D3DCompiler.xml",
+        "vortice.d3dcompiler.2.4.2.nupkg.sha512",
+        "vortice.d3dcompiler.nuspec"
+      ]
+    },
+    "Vortice.Direct3D11/2.4.2": {
+      "sha512": "2bDAoXFH2AMHgW9buTcpG860Wpg5TfrDh7GH7BjInfKvVVZ6dh2y3msfzTv2wKvLEFnj5QPVMgc/UFWuidbEfQ==",
+      "type": "package",
+      "path": "vortice.direct3d11/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.Direct3D11.BindMapping.xml",
+        "build/Vortice.Direct3D11.props",
+        "buildMultiTargeting/Vortice.Direct3D11.props",
+        "lib/net6.0/Vortice.Direct3D11.dll",
+        "lib/net6.0/Vortice.Direct3D11.pdb",
+        "lib/net6.0/Vortice.Direct3D11.xml",
+        "lib/netstandard2.0/Vortice.Direct3D11.dll",
+        "lib/netstandard2.0/Vortice.Direct3D11.pdb",
+        "lib/netstandard2.0/Vortice.Direct3D11.xml",
+        "vortice.direct3d11.2.4.2.nupkg.sha512",
+        "vortice.direct3d11.nuspec"
+      ]
+    },
+    "Vortice.DirectX/2.4.2": {
+      "sha512": "7QQvwhKbNyIP7ZLv6tx16fSThayDZUXwiEPb0ShsFQEzXgXokDVA0rdRoSqn3i+WNI+nu84uakn2lmqsCnaDyQ==",
+      "type": "package",
+      "path": "vortice.directx/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.DirectX.BindMapping.xml",
+        "build/Vortice.DirectX.props",
+        "buildMultiTargeting/Vortice.DirectX.props",
+        "lib/net6.0/Vortice.DirectX.dll",
+        "lib/net6.0/Vortice.DirectX.pdb",
+        "lib/net6.0/Vortice.DirectX.xml",
+        "lib/net7.0/Vortice.DirectX.dll",
+        "lib/net7.0/Vortice.DirectX.pdb",
+        "lib/net7.0/Vortice.DirectX.xml",
+        "lib/netstandard2.0/Vortice.DirectX.dll",
+        "lib/netstandard2.0/Vortice.DirectX.pdb",
+        "lib/netstandard2.0/Vortice.DirectX.xml",
+        "vortice.directx.2.4.2.nupkg.sha512",
+        "vortice.directx.nuspec"
+      ]
+    },
+    "Vortice.DXGI/2.4.2": {
+      "sha512": "7RE288qH5HEwSUQhP0evhmzbOYLT/S37XRRyzwb0wTTIV/UhSrpJNM+8nzIP7TVPkFzTqRyr7VFLK0sxW6gxmA==",
+      "type": "package",
+      "path": "vortice.dxgi/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.DXGI.BindMapping.xml",
+        "build/Vortice.DXGI.props",
+        "buildMultiTargeting/Vortice.DXGI.props",
+        "lib/net6.0/Vortice.DXGI.dll",
+        "lib/net6.0/Vortice.DXGI.pdb",
+        "lib/net6.0/Vortice.DXGI.xml",
+        "lib/netstandard2.0/Vortice.DXGI.dll",
+        "lib/netstandard2.0/Vortice.DXGI.pdb",
+        "lib/netstandard2.0/Vortice.DXGI.xml",
+        "vortice.dxgi.2.4.2.nupkg.sha512",
+        "vortice.dxgi.nuspec"
+      ]
+    },
+    "Vortice.Mathematics/1.4.25": {
+      "sha512": "V2yJMl/QKceXEjYEnf2EWcNkUJI5/zE04cNUnawHbdR0wjMHv1dVTLf0IUJk0D0w29FrCWdQQK/n4L4vx0HeQA==",
+      "type": "package",
+      "path": "vortice.mathematics/1.4.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Vortice.Mathematics.dll",
+        "lib/net6.0/Vortice.Mathematics.pdb",
+        "lib/net6.0/Vortice.Mathematics.xml",
+        "lib/net7.0/Vortice.Mathematics.dll",
+        "lib/net7.0/Vortice.Mathematics.pdb",
+        "lib/net7.0/Vortice.Mathematics.xml",
+        "lib/netstandard2.0/Vortice.Mathematics.dll",
+        "lib/netstandard2.0/Vortice.Mathematics.pdb",
+        "lib/netstandard2.0/Vortice.Mathematics.xml",
+        "lib/uap10.0.19041/Vortice.Mathematics.dll",
+        "lib/uap10.0.19041/Vortice.Mathematics.pdb",
+        "lib/uap10.0.19041/Vortice.Mathematics.pri",
+        "lib/uap10.0.19041/Vortice.Mathematics.xml",
+        "vortice.mathematics.1.4.25.nupkg.sha512",
+        "vortice.mathematics.nuspec"
+      ]
+    },
+    "stardust.Game/1.0.0": {
+      "type": "project",
+      "path": "../stardust.Game/stardust.Game.csproj",
+      "msbuildProject": "../stardust.Game/stardust.Game.csproj"
+    },
+    "stardust.Resources/1.0.0": {
+      "type": "project",
+      "path": "../stardust.Resources/stardust.Resources.csproj",
+      "msbuildProject": "../stardust.Resources/stardust.Resources.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "stardust.Game >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/coemsic/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "0.0.0",
+    "restore": {
+      "projectUniqueName": "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj",
+      "projectName": "stardust",
+      "projectPath": "/home/coemsic/of/stardust/stardust.Desktop/stardust.Desktop.csproj",
+      "packagesPath": "/home/coemsic/.nuget/packages/",
+      "outputPath": "/home/coemsic/of/stardust/stardust.Desktop/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/coemsic/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj": {
+              "projectPath": "/home/coemsic/of/stardust/stardust.Game/stardust.Game.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
