@@ -6,17 +6,13 @@
 Made with the Osu! Framework for the Osu! Framework, Stardust is a WYSIWYG Gameengine for the Osu! Framework. You can Easealy build projects, code, manage projects and even more!
 
 [![Sparkline](https://stars.medv.io/coe-msic/stardust.svg)](https://stars.medv.io/coe-msic/stardust)
-
-### Programms used to make this:
-
-Textures: [Krita](https://github.com/KDE/krita)
-
-Code: [VSCodium](https://github.com/VSCodium/vscodium)
-
-Programming language: C# (.NET 8)
-
+## Awesome List😎 
+Work in progress
 ## Copyright
- The osu! Framework is licensed under the MIT Licence
+ | Project | Licence |
+ | ------- | ------- |
+ | STARDUST | The Unlicence |
+ | O!F | MIT |
 
 ## Our Contributers
 
