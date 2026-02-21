@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-# had to change it from 10.0 to 8.0 again cause i couldnt find out how to install .NET 10
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
