@@ -42,7 +42,7 @@ namespace stardust.Game
 
                 if (process.ExitCode != 0)
                 {
-                    throw new Exception($"Fehler beim Ausführen von 'dotnet new': {error}");
+                    throw new Exception($"Error while executing 'dotnet new': {error}");
                 }
             }
 
