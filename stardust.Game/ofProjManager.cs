@@ -10,7 +10,7 @@ using System.Linq;
 public static class ProjectManager
 {
     // THE APPS DATA FOLDER (yes thats it... its just a variable fot the Application Data)
-    private static readonly /* you can remove this if you want to make a fork where you cna chanfe the app data folder*/ string ConfigFolder = Path.Combine(
+    private static /**/readonly/* you can remove this if you want to make a fork where you can chanfe the app data folder*/ string ConfigFolder = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Stardust"/*change this when you fork*/); 
     
     // checks which project was the latest in use and also is used to load the projects in the load system
@@ -62,5 +62,3 @@ public static class ProjectManager
         }
     }
 }
-
-// If you read all the comments im so sorry for all the brain cancer i have caused whit this bad englich

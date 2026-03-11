@@ -78,20 +78,20 @@ namespace stardust.Game
                 // AWAKE THE GENERATOR
                 var generator = new ProjectGenerator();
                 
-                // DO DOTNET SH*T
+                // generates
                 await generator.CreateProjectAsync(name, path);
 
-                // K*LL... I MEANT CLOSE THE WINDOW
+                // closes the window
                 this.Hide();
                 
-                // if you making a fork you cna add things that happen after generating
+                // if you making a fork you can add things that happen after generating
             }
             catch (Exception e)
             {
                 createButton.Text = "An Error happend!";
                 createButton.BackgroundColour = Color4.Red;
             }
-            finally // so true...
+            finally
             {
                 createButton.Enabled.Value = true;
             }

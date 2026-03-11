@@ -17,15 +17,24 @@ namespace stardust.Game
 
             InternalChildren = new Drawable[]
             {
-
-                new SpriteText
+                new Box // Background
                 {
-                    Y = 20,
-                    Text = "Projects",
-                    Anchor = Anchor.TopCentre,
-                    Origin = Anchor.TopCentre,
-                    Font = FontUsage.Default.With(size: 40)
+                    RelativeSizeAxes = Axes.Both,
+                    Colour = new osuTK.Graphics.Color4(18, 18, 28, 255),
                 },
+
+                ColumnDimensions = new[]
+                {
+                    new Dimension(GridSizeMode.Absolute, 250),
+                    new Dimension(),
+                }
+
+                private CreateProjectPanel createPanel = null!;
+
+                createPanel = new CreateProjectPanel();
+
+
+                Action = () => createPanel.Show()
             };
 
         }
