@@ -4,7 +4,7 @@ If you found a bug you are fully allowed to open a pull request to fix it
 # Adding Features 
 If you want to add a Feature please make a feature request issue first so we can clarify that the feature is acctually good to added.
 
-## got some Questions? cosider opening asking in Discussions
+## Got a Questions? Consider asking in Discussions
 
 # Rules for Contribution
 
