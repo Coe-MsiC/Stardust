@@ -1,14 +1,7 @@
-# Fixing Bugs
-If you found a bug you are fully allowed to open a pull request to fix it
+# CONTRIBUTING
+Stardust is a free and unlicenced Project. It would be really helpfull if you would help us continue working on this Game Engine.
 
-# Adding Features 
-If you want to add a Feature please make a feature request issue first so we can clarify that the feature is acctually good to added.
-
-## Got a Questions? Consider asking in Discussions
-
-# Rules for Contribution
-
-1. THIS IS A PROJECT MADE FOR EVERYONE! IT SHOULD NOT CONTAIN 18+ CONTENT
-2. This Projects should also not contain any kind of homophobia, transphobia, racism, sexism and other kinds of hate
-
-### Other Rules can be found in the Code of Conduct
+# How to Contribute
+Stardust is build on the Osu!Framework. Please read the [Wiki](https://www.github.com/ppy/osu-framework/wiki) before contributing.
+### the Testbrowser
+The build in test browser of the framework is NOT recomended to use. We recommend using `dotnet clear && dotnet run` instead.
