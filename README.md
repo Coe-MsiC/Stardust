@@ -20,4 +20,4 @@ More [Awesome](https://awesome.re) things will be added here soon
 
 ## Our Contributers
 
-[![Coe-MsiC](https://github-readme-activity-graph.vercel.app/graph?username=Coe-MsiC&bg_color=0d0e12&color=1CFFAA&line=00E38E&point=1CFFAA&area=true&hide_border=true)](https://github.com/Coe-MsiC)
+[![Coe-MsiC](https://github-readme-activity-graph.vercel.app/graph?username=Coe-MsiC&bg_color=0d1117&color=FFFFFF&line=00E38E&point=1CFFAA&area=true&hide_border=true)](https://github.com/Coe-MsiC)
